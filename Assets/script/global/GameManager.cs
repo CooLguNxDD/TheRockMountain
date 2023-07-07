@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void setOfficalIP(){
-        HostIp = "23.16.101.226";
+        HostIp = "192.168.1.1";
         NetworkManager.Singleton.GetComponent<UnityTransport>().SetConnectionData(HostIp.ToString(), 13333);
     }
 
